@@ -1,0 +1,23 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.embeddedLanguageFormatting": "off",
+  "liveServer.settings.donotVerifyTags": true,
+  "autoprefixer.options": {
+    "browsers": [
+      "last 5 version",
+      "ie >=9",
+      ">5%"
+    ]
+  },
+  "liveSassCompile.settings.formats": [{
+    "format":"compressed",
+    "extensionName": "min.css",
+    "savePath": "./css"
+  }
+],
+"liveSassCompile.settings.showOutputWindowOn": "None",
+"liveSassCompile.settings.includeItems": [
+
+]
+}
+
