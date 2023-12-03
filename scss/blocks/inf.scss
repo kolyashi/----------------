@@ -1,34 +1,93 @@
-.inf{
-    width: 100%;
-    padding: 100px 0 20px;
-    position: relative;
-        &_project {
-            font-family: Montserrat;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px; 
-            text-transform: uppercase;
-            width: 100%;
-            
-            &::after {
-                position: absolute;
-                content:'';
-                top: 110px;
-                right: 450px;
-                width: 529px;
-                height: 2px;
-                background: #000;
-                left: 165px;
+@import '../variables.scss';
+    .inf{
+        width: 100%;
+        padding: 100px 0 20px;
+        position: relative;
+            &_project {
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; 
+                text-transform: uppercase;
+                width: 100%;
+                
+                &::after {
+                    position: absolute;
+                    content:'';
+                    top: 110px;
+                    right: 450px;
+                    width: 529px;
+                    height: 2px;
+                    background: #000;
+                    left: 165px;
+                }
             }
+           
+            .inf_title {
+                font-family: Montserrat;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 140%;
+                color: $GrayScale50;
+                margin-top: 20px;
+                margin-left: -3px;
+                margin-bottom: 46px;
+            }
+    }
+        .inf_table img {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 20.17%, rgba(0, 0, 0, 0.00) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
         }
-        .inf_title {
+        .grid_table {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 10px ;
+        
+        .grid_box4 {
+            margin-top: -310px;
+            margin-left: 7.8px;
+        }
+        .grid_box5 {
+            margin-top: -310px;
+            margin-left: -301px;
+        }
+        .grid_box6 {
+            margin-top: -310px;
+        }
+        .grid_text1 {
+            position: absolute;
+            margin:220px 185px 30px 20px;
+        }
+        .grid_text2 {
+            position: absolute;
+            margin:500px 37px 32px 20px;
+        }
+        .grid_text3 {
+            position: absolute;
+            margin:226px 37px 30px 20px;
+        }
+        .grid_text4 {
+            position: absolute;
+            margin:204px 37px 30px 20px;
+        }
+        .grid_text5 {
+            position: absolute;
+            margin:204px 37px 30px 20px;
+        }
+        .grid_text6 {
+            position: absolute;
+            margin:204px 37px 30px 20px;
+        }
+        .grid_text1,.grid_text2,.grid_text3,.grid_text4,.grid_text5,.grid_text6 {
             font-family: Montserrat;
-            font-size: 36px;
+            font-size: 18px;
             font-style: normal;
             font-weight: 600;
-            line-height: 140%;
-            color: $Grayscale50;
-            margin-top: 20px;
+            line-height: 120%; /* 21.6px */
+            color: $GrayScaleWhite;
         }
-}
+    }
+
+
+        
