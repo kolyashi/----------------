@@ -1,4 +1,4 @@
-@import '../variables';
+@import '../variables.scss';
 .about{
     width: 100%;
     padding: 100px 0 20px;
@@ -24,10 +24,25 @@
                 background: #000;
                 left: 110px;
             }
-            
+            &_smaller {
+                &::after {
+                    position: absolute;
+                    content:'';
+                    top: 253px;
+                    right: 450px;
+                    width: 529px;
+                    height: 2px;
+                    background: #000;
+                    left: 150px;
+                }
+            }
         
         }   
 
+        .about_map {
+            margin-top: 25px;
+            width: 100%;
+        }
         .about {
             position: relative;
             z-index: 0;
@@ -56,6 +71,9 @@
             top: 1430px;
             left: 120px;
             margin-bottom: 98px;
+            &_smaller {
+                margin-top: -100px;
+            }
 
         }
 
@@ -126,7 +144,6 @@
     color: $GrayScale10;
     margin:85px 193px 0 613px;
     width: 634px;
-
  }
  .button {
     display: inline-block;

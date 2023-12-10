@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/headermin.css">
     <link rel="stylesheet" href="css/heromin.css">
     <link rel="stylesheet" href="css/aboutmin.css">
+    <link rel="stylesheet" href="css/infmin.css">
+    <link rel="stylesheet" href="css/pdfmin.css">
+    <link rel="stylesheet" href="css/fontsmin.css">
     
     <title>Дипломный проект</title>
 </head>
@@ -45,16 +48,6 @@
                         </div>
                         <img class="hero_image" src="/assets/images/Mask group.png" alt="Бизнес квартал">
                     </section>
-                    <section class="pdf">
-                        <!-- <h2 class="pdf_title">Вся информация о проекте - в презентации</h2>
-                        <ul>
-                            <li>25 слайдов подробной информация</li>
-                            <li>Инфраструктура, благоустройство, асположение</li>
-                            <li>Инженерия, концепция и тд.</li>
-                        </ul>
-                        < <a href="/assets/Obrazets-polnogo-dizai-n-proekta-1.pdf" class="pdf_link pdf_link_button">Скачать презентация</a>
-                        <img src="/assets/images/image 6.png" alt="" class="pdf_image"> -->
-                    </section>
                 </div>
                 <div class="container" >
                     <section class="about">
@@ -62,7 +55,7 @@
                         <h3 class="about_title"><strong>Уникальный проект в динамично <br> развивающемся районе Москвы</strong></h3>
                         <p class="about_info">Бизнес-квартал «Ясенево» расположен на пересечении ключевых <br> маршрутов локации – в 1 мин. от действующей станции метро <br> и автотрассы СБВ (дублёр МКАД) с удобным съездом на парковку. <br>Здесь проходит единственный путь от жилых районов к метро, что <br> обеспечивает высокую активность пешеходного трафика.</p>
                     </section>
-                    <section class="table_edge">
+                    <section class="edge">
                         <div class="container">
                             <div class="flex_table">
                                     <div class="flex_box1">
@@ -139,11 +132,38 @@
                             </div>
                         </div>
                     </section>
+                    <div class="container">
+                        <section class="pdf">
+                            <span class="pdf_project">подробно</span>
+                            <h2 class="pdf_title">Вся информация о проекте - <br> в презентации</h2>
+                            <ul class="pdf_spk">
+                                <li>25 слайдов подробной информация</li>
+                                <li>Инфраструктура, благоустройство, асположение</li>
+                                <li>Инженерия, концепция и тд.</li>
+                            </ul>
+                            <button class="pdf_btn"><a href="/assets/Obrazets-polnogo-dizai-n-proekta-1.pdf" class="pdf_link pdf_link_button">Скачать презентацию</a></button> 
+                            <img class="pdf_image" src="/assets/images/image 6.png" alt="" class="pdf_image">
+                        </section>
+                    </div>
             </main>
-    </div>
-                
+            <footer>
+                    <div class="container">
+                        <div class="footer">
+                            <span class="footer_info">Подберем лучшее помещение <br> под ваши задачи, основываясь <br> на аналитике бизнес-среды в <br> локации.</span>
+                        </div>
+                        <div class="footer_logo">БК "Ясенево"</div>
+                        <form class="form_footer" action="" method="get">
+                            <label for="name"></label>
+                            <input class="footer_name" type="text" id="name" required placeholder="Ваше имя"><br>
                     
-                
+                            <label for="tel"></label>
+                            <input class="footer_tel" type="tel" id="tel" required placeholder="+7"><br>
                     
+                            <button class="footer_btn" type="submit">Получить консультацию</button>
+                        </form>
+                        <a class="footer_number" href="tel:+74952214022">+7 (495) 221-40-22</a>
+                    </div>
+            </footer>
+    </div>            
 </body>
 </html>
