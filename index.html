@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/infmin.css">
     <link rel="stylesheet" href="css/pdfmin.css">
     <link rel="stylesheet" href="css/fontsmin.css">
+    <link rel="stylesheet" href="css/footermin.css">
     
     <title>Дипломный проект</title>
 </head>
@@ -115,28 +116,28 @@
                             <div class="grid_table">
                                 <div class="grid_box1">
                                     <div class="grid_text1"><p>Торгово-офисный центр с крытым <br> переходом из метро</p></div>
-                                    <img src="/assets/images/1.1.png" alt="">
+                                    <img class="grid_image1" src="/assets/images/1.1.png" alt="">
                                 </div>
                                 <div class="grid_box2">
                                     <div class="grid_text2"><p>Уникальные <br> пространства для <br> резидентов бизнес <br> центра</p></div>
-                                    <img src="/assets/images/1.4.png" alt="">
-                                </div>
+                                    <img class="grid_image2" src="/assets/images/1.4.png" alt="">
+                                 </div>
                                 <div class="grid_box3">
                                     <div class="grid_text3"><p>«Уличная гостиная» с <br> удобной мебелью</p></div>
-                                    <img src="/assets/images/1.5.png" alt="">
-                                </div>
+                                    <img class="grid_image3" src="/assets/images/1.5.png" alt="">
+                                </div> 
                                 <div class="grid_box4">
                                     <div class="grid_text4"><p>Подземная и наземная <br> парковка с электро- <br> зарядками</p></div>
-                                    <img src="/assets/images/1.2.png" alt="">
+                                    <img class="grid_image4" src="/assets/images/1.2.png" alt="">
                                 </div>
-                                <div class="grid_box5">
+                                 <div class="grid_box5">
                                     <div class="grid_text5"><p>Благоустройство более <br> 7Га с выходом к <br> набережной</p></div>
-                                    <img src="/assets/images/1.3.png" alt="">
+                                    <img class="grid_image5" src="/assets/images/1.3.png" alt="">
                                 </div>
                                 <div class="grid_box6">
                                     <div class="grid_text6"><p>Магазины, панорамный <br> ресторан, шоу-румы, <br> эвенты</p></div>
-                                    <img src="/assets/images/1.6.png" alt="">
-                                </div>
+                                    <img class="grid_image6" src="/assets/images/1.6.png" alt="">
+                                </div> 
                             </div>
                         </div>
                     </section>
@@ -155,22 +156,24 @@
                     </div>
             </main>
             <footer>
-                    <div class="container">
-                        <div class="footer">
-                            <span class="footer_info">Подберем лучшее помещение <br> под ваши задачи, основываясь <br> на аналитике бизнес-среды в <br> локации.</span>
+                    <section class="footer_cont">
+                        <div class="container">
+                            <div class="footer">
+                                <span class="footer_info">Подберем лучшее помещение <br> под ваши задачи, основываясь <br> на аналитике бизнес-среды в <br> локации.</span>
+                            </div>
+                            <div class="footer_logo">БК "Ясенево"</div>
+                            <form class="form_footer" action="" method="get">
+                                <label for="name"></label>
+                                <input class="footer_name" type="text" id="name" required placeholder="Ваше имя"><br>
+                        
+                                <label for="tel"></label>
+                                <input class="footer_tel" type="tel" id="tel" required placeholder="+7"><br>
+                        
+                                <button class="footer_btn" type="submit">Получить консультацию</button>
+                            </form>
+                            <a class="footer_number" href="tel:+74952214022">+7 (495) 221-40-22</a>
                         </div>
-                        <div class="footer_logo">БК "Ясенево"</div>
-                        <form class="form_footer" action="" method="get">
-                            <label for="name"></label>
-                            <input class="footer_name" type="text" id="name" required placeholder="Ваше имя"><br>
-                    
-                            <label for="tel"></label>
-                            <input class="footer_tel" type="tel" id="tel" required placeholder="+7"><br>
-                    
-                            <button class="footer_btn" type="submit">Получить консультацию</button>
-                        </form>
-                        <a class="footer_number" href="tel:+74952214022">+7 (495) 221-40-22</a>
-                    </div>
+                    </section>
             </footer>
     </div>            
 </body>
