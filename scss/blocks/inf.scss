@@ -42,7 +42,7 @@
         .grid_table {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: 1fr;
             
         
         
@@ -56,19 +56,19 @@
             grid-column-start: 2;
             grid-row-start: 1;
             margin-top: 0;
-            margin-left: 0;
+            margin-left: 10px;
         }
         .grid_box3 {
             grid-column-start: 2;
             grid-row-start: 1;
-            margin-left: 300px;
+            margin-left: 310px;
             margin-top: 0;
         }
         .grid_box4 {
             grid-column-start: 1;
             grid-row-end: 3;
             margin-top: -315px;
-            margin-left: 5px
+            margin-left: 10px
         }
         .grid_box5 {
             grid-column-start: 1;
@@ -80,7 +80,7 @@
         .grid_box6 {
             grid-column-start: 2;
             grid-row-start: 1;
-            margin-left: 300px;
+            margin-left: 310px;
             margin-top: 310px;
         }
         .grid_text1 {
@@ -158,23 +158,23 @@
             .grid_box2 {
                 grid-column-start: 1;
                 grid-row-start: 2;
-                margin-top: -1px;
+                margin-top: 5px;
                 margin-left: 10px;
             }
             .grid_box3 {
                 grid-column-start: 1;
                 grid-row-start: 2;
-                margin-top: 0;
+                margin-top: 5px;
                 margin-left: 310px;
             }
             .grid_box4 {
-                margin-top: -313px;
+                margin-top: -305px;
                 margin-left: 10px;
             }
             .grid_box6 {
                 grid-column-start: 1;
                 grid-row-start: 2;
-                margin-top: 310px;
+                margin-top: 315px;
                 margin-left: 310px
             }
         }
@@ -184,7 +184,7 @@
         .grid_table {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows:repeat(3,1fr);
+            grid-template-rows:repeat(2,1fr);
             
             .grid_box2 {
                 grid-column-start: 1;
