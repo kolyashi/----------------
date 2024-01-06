@@ -83,13 +83,84 @@
 .image_people_plans{
     width: 100%;
     display: block;
-    margin:339px 10px 0 -10px;
+    margin:450px 10px 0 -10px;
 }
 
 
 
 
 @media screen and (max-width:1279px) and (min-width: 768px) {
+    .plans_block {
+        .plans_table {
+            .plans_box3 {
+                margin-top: 281px;
+                margin-left: -3px;
+                grid-column-start: 1;
+                grid-row-start: 3;
+            }
+            
+            .plans_box4 {
+                grid-column-start: 2;
+                grid-row-start: 2;
+            }
+            .plans_box5 {
+                grid-row-start: 2;
+                grid-column-start: 1;
+                margin-top: 285px;
+            }
+        }
+    }
+
+    .info_block {
+        
+        color: var(--Grayscale-10, #9C9C9C);
+        /* Montserrat/Regular/18 */
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+        margin-top: 62px;
+        margin-left: 10px;
+    }
     
+}
+
+@media screen and (max-width:767px) {
     
+
+    .plans_block {
+        .plans_table {
+            margin-top: 40px;
+            .plans_box2 {
+                grid-column-end: 1;
+                grid-row-start: 2;
+                margin-top: 310px;
+                margin-left: 1px;
+            }
+            .plans_box3 {
+                grid-column-end: 1;
+                grid-row-start: 3;
+                margin-top: 310px;
+            }
+            .plans_box4 {
+                grid-column-end: 1;
+                grid-row-start: 4;
+                margin-top: 310px;
+                margin-left: 1px;
+
+            }
+            .plans_box5 {
+                grid-column-end: 1;
+                grid-row-start: 5;
+                margin-top: 310px;
+            }
+        }
+    }
+    .block_text_plans {
+        margin-left: 610px;
+        margin-top: 49px;
+    }
+    
+
 }

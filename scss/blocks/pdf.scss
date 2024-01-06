@@ -23,7 +23,7 @@
                 width: 529px;
                 height: 2px;
                 background: #000;
-                left: 110px;
+                left: 109px;
         }
     }
     .pdf_title {
@@ -59,4 +59,59 @@
         margin-left: 300px;
         margin-top: -170px;
     }
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .pdf {
+        .pdf_title_smaller {
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%; /* 28px */
+        }
+        .pdf_spk {
+            color: var(--Grayscale-10, #9C9C9C);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 25.6px */
+        }
+        .pdf_btn {
+            margin-top: 175px;
+        }
+        .pdf_image {
+            margin-top: -10px;
+            margin-left: -210px;
+            margin-bottom: 36px;
+        }
+        &_project {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+            text-transform: uppercase;
+            width: 100%;
+            
+            
+            
+            &::after {
+                position: absolute;
+                content:'';
+                top: 110px;
+                right: 450px;
+                width: 265px;
+                height: 2px;
+                background: #000;
+                left: 109px;
+        }
+    }
+    }
+    
 }
